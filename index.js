@@ -37,7 +37,7 @@ function Circle(x, y, dX, dY, radius, color) {
 let colorArray = ['#2ecc71', '#e74c3c', '#2980b9', '#e67e22', '#8e44ad', '#30336b', '#f9ca24', '#6ab04c', '#f1f2f6', '#7bed9f'];
 let objectArray = [];
 
-for (let i = 0; i < 60; i++) {
+for (let i = 0; i < 30; i++) {
   let radius = Math.random()*30+20;
   let temp = (Math.random()*10);
   console.log(temp);
